@@ -9,8 +9,7 @@ programa
 		leia(salario)
 
 		aumentoSal = salario + salario * 0.15 //cálculo do salário mais 15% de acréscimo. 
-		//Tive que fazer desta forma pois até o momento não encontrei outra forma de fazer soma 
-		//e subtração de porcentagens de forma mais simples. E preciso aprender a fazer comentários mais enxutos.
+		//Tive que fazer desta forma pois até o momento não encontrei outra forma de fazer soma e subtração de porcentagens de forma mais simples. E preciso aprender a fazer comentários mais enxutos heheh.
 
 		escreva("Seu salário com 15% de aumento fica em: ", "R$", aumentoSal)
 		
