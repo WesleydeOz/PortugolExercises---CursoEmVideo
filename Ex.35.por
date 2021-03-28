@@ -18,27 +18,37 @@ programa
 		limpa()
 
 		se(tipoCar == "popular" ou tipoCar == "Popular"){
-
-			se(km <= 100){          //verifica a quilometragem percorrida para cobrar R$0,20 ou R$0,10 por km rodado
+			
+			//verifica a quilometragem percorrida para cobrar R$0,20 ou R$0,10 por km rodado
+			se(km <= 100){          
 				alugKm = km * 0.20
 			}senao{
 				alugKm = km * 0.10
 			}
 			
-			alugDia = diasAlug * 90	//Preço a ser pago de acordo com a quantidade de dias que o carro foi alugado
-			totalAluguel = alugDia + alugKm //Soma para saber o preço final. Soma entre o preço por quilômetros rodados e dias alugados
+			//Preço a ser pago de acordo com a quantidade de dias que o carro foi alugado
+			alugDia = diasAlug * 90	
+			
+			//Soma para saber o preço final. Soma entre o preço por quilômetros rodados e dias alugados
+			totalAluguel = alugDia + alugKm 
+			
 			escreva("Preço do aluguel: R$", totalAluguel)
 			
 		}senao se(tipoCar == "luxo" ou tipoCar == "Luxo"){
-
-			se(km <= 200){			//verifica a quilometragem percorrida para cobrar R$0,30 ou R$0,25 por km rodado
+			
+			//verifica a quilometragem percorrida para cobrar R$0,30 ou R$0,25 por km rodado
+			se(km <= 200){			
 				alugKm = km * 0.30
 			}senao{
 				alugKm = km * 0.25
 			}
 			
-			alugDia = diasAlug * 150	//Preço a ser pago de acordo com a quantidade de dias que o carro foi alugado
-			totalAluguel = alugDia + alugKm //Soma para saber o preço final. Soma entre o preço por quilômetros rodados e dias alugados
+			//Preço a ser pago de acordo com a quantidade de dias que o carro foi alugado
+			alugDia = diasAlug * 150	
+			
+			//Soma para saber o preço final. Soma entre o preço por quilômetros rodados e dias alugados
+			totalAluguel = alugDia + alugKm 
+			
 			escreva("Preço do aluguel: R$", totalAluguel)
 		}
 		//Para caso o usuário escreva algo diferente do esperado para o tipo de carro alugado
