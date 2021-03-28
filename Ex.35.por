@@ -1,6 +1,7 @@
 programa
 {
-	cadeia  tipoCar
+	
+	cadeia  tipoCar
 	inteiro diasAlug, alugDia
 	real km, alugKm, totalAluguel
 	funcao inicio()
