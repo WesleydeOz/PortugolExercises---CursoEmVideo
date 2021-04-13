@@ -1,13 +1,14 @@
 programa
 {
-	cadeia nome
+	
+cadeia nome
 	funcao inicio()
 	{
 		escreva("Digite seu nome: ")
 		leia(nome)
 		limpa()
 		
-		escreva("Olá ", nome, ", é um prazer te conhecer!")
+		escreva("Olá ", nome, ", é um prazer te conhecer!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
