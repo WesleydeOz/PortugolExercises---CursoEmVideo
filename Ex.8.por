@@ -1,10 +1,11 @@
 programa
-{	
+{
+	
 	real metro, km, hm, dm, dam, cm, mm 
 	
 	funcao inicio()
 	{
-		escreva("Digite  distância em metros: ")
+		escreva("Digite uma distância em metros: ")
 		leia(metro)
 		
 		km = metro / 1000
